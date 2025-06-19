@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.wrapper h1 {
+	font-size: 150px;
+	font-weight: 900;
+	text-transform: uppercase;
+	background: url(../img/singapore.jpg) no-repeat scroll;
+	background-size: cover;
+	-webkit-background-clip: text;
+	color: transparent;
+	line-height: normal;
+}
